@@ -57,6 +57,7 @@ body {
     text-align: left;
 }
 .card {
+    background-color: rgb(31, 35, 33);
     box-sizing: border-box;
     border: 2px solid rgb(85, 85, 101);
     border-radius: 28px;
