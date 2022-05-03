@@ -1,0 +1,191 @@
+body {
+    background-color: rgb(31, 32, 35);
+    color: whitesmoke;
+    font-family: "Roboto", Arial, Helvetica, sans-serif;
+    margin: 0 10%;
+}
+            /* Tokens */
+
+/* h1 */
+.display { 
+    font-weight: 400;
+    font-size: 45px;
+    line-height: 2;
+    margin: 0;
+}
+/* h3 */
+.headline {
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 2.25;
+    margin: 0;
+}
+/* h5 */
+.title {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.5;
+    margin: 0;
+}
+/* p */
+.body {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.25;
+    margin: 0;
+}
+/* p */
+.label {
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 1;
+    margin: 0;
+}
+
+
+            /* Components */
+.section {
+    box-sizing: border-box;
+    border: 2px solid rgb(85, 85, 101);
+    border-radius: 28px;
+    width: 100%;
+    /* text-align:center; */
+    margin-bottom: 32px;
+}
+.sectionTitle {
+    padding: 0 28px;
+    text-align: left;
+}
+.card {
+    box-sizing: border-box;
+    border: 2px solid rgb(85, 85, 101);
+    border-radius: 28px;
+    /* display: inline-block; */
+    width: 90%;
+    margin:0 auto;
+    margin-bottom: 20px;
+    min-height: 100px;
+    overflow: hidden;
+    padding-bottom: 20px;
+    box-shadow: 1px 1px 3px #546e76;
+}
+
+/*Main title*/
+#styleGuide {
+    text-align: center;
+}
+
+
+/* Tarjetas de Colores */
+.palette td, .palette tr, .palette {
+    border-spacing: 0;
+}
+.palette {
+    width: 100%;
+}
+.paletteColors > td {
+    width: 20%;
+    height: 80px;
+    text-align: right;
+    vertical-align: bottom;
+    padding-right: 5px;
+    padding-bottom: 5px;
+    margin-bottom: 5px;
+}
+.paletteName h5{
+    height: 30px;
+    text-align: left;
+    padding-top: 5px;
+    padding-left: 25px;
+}
+
+/* Tarjetas de Fuentes */
+.fontName {
+    margin: 16px 0 0 20px;
+}
+.fontAuthor {
+    margin:0 0 10px 20px;
+}
+.fontSample {
+    margin:10px 20px 0 32px;
+}
+
+/* Tarjeta de Tokens */
+.tokenSample {
+    margin-left: 30px;
+    margin-top: 20px;
+    margin-bottom: 17px;
+}
+.tokenName {
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.tokenDescription {
+    margin-left: 10px;
+    margin-right: 10px;
+}
+#displaytoken {
+    font-family: "Dancing Script", 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: xx-large;
+}
+#headlinetoken {
+    font-family: "Caveat", Arial, Helvetica, sans-serif;
+}
+#titletoken {
+    font-family: "Anybody", serif;
+}
+
+
+/* Fuentes*/
+#font1 {
+    font-family: "Tourney", sans-serif;
+}
+#font2 {
+    font-family: "Lemonada", serif;
+}
+#font3 {
+    font-family: "Dancing Script", monospace;
+}
+ 
+/* Colors */
+#color1 {
+    background-color: #416165;
+    color: whitesmoke;
+}
+#color2 {
+    background-color: #0B3948;
+    color: whitesmoke;
+}
+#color3 {
+    background-color: #ACB0BD;
+    color: black;
+}
+#color4 {
+    background-color: #D0CDD7;
+    color: black;
+}
+#color5 {
+    background-color: #D9DBF1;
+    color: black;
+}
+#color6 {
+    background-color: #d7f9f1;
+    color: black;
+}
+#color7 {
+    background-color: #7aa095;
+    color: black;
+}
+#color8 {
+    background-color: #40531b;
+    color: whitesmoke;
+}
+#color9 {
+    background-color: #618b4a;
+    color: whitesmoke;
+}
+#color10 {
+    background-color: #afbc88;
+    color: black;
+}
+
